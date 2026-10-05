@@ -32,7 +32,7 @@ Como referência visual, a interface usa cartões de indicadores mais compactos,
 - Fonte Inter, com alternativas Roboto, Helvetica, Arial e sans-serif.
 - DevTools/inspeção do navegador para verificação do HTML e da responsividade.
 
-As versões dos pacotes estão fixadas no projeto e registradas em `packages.lock.json` para tornar a restauração reproduzível. A foto do usuário fictício foi obtida do retrato indicado pelo tutorial: https://randomuser.me/api/portraits/men/32.jpg.
+As versões dos pacotes estão fixadas no projeto e registradas em `packages.lock.json` para tornar a restauração reproduzível. O perfil fictício do dashboard usa a imagem de Astro Boy enviada pelo aluno, com o nome Tetsuwan Atom.
 
 ## Como executar
 
@@ -110,7 +110,7 @@ afya-admin/
 │   └── launchSettings.json
 ├── wwwroot/
 │   ├── css/app.css
-│   ├── img/alex-morgan.jpg
+│   ├── img/tetsuwan-atom.png
 │   ├── favicon.png
 │   ├── icon-192.png
 │   └── index.html

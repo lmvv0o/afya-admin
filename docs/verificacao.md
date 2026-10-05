@@ -19,6 +19,7 @@ Data: 5 de outubro de 2026. SDK 10.0.112, pacotes Blazor 10.0.12 e MudBlazor 9.1
 | Seletor de período | Escolher 7 dias alterou o rótulo; retorno para 30 dias funcionou. |
 | Notificações | Menu abriu e mostrou as três notificações fictícias. |
 | Usuário | Menu abriu com Perfil, Configurações e Sair. |
+| Perfil | Imagem local do Astro Boy e nome Tetsuwan Atom aparecem no menu do usuário. |
 | Opções dos cards | Menu de Receita abriu com Exportar dados e Ver relatório completo. |
 | Ações da tabela | Menu do Portal Institucional abriu com Ver detalhes, Editar e Excluir. |
 | Sidebar mobile | Gaveta abriu sobre o conteúdo e fechou. |
@@ -60,7 +61,7 @@ Busca, Novo Projeto, exportação, cadastro e edição são apenas demonstrativo
 
 ## Evidências e pendências
 
-- Quatro prints reais: temas claro e escuro, versão mobile e inspeção do `MudPaper` na aba Elements, em `docs/prints/`.
+- Quatro prints reais: temas claro e escuro, versão mobile e inspeção do `MudPaper` na aba Elements, em `docs/prints/`; as três capturas da página foram refeitas após trocar o perfil para Tetsuwan Atom.
 - Capturas refeitas em desktop (1440px) e celular (390px): o tema escuro usa superfícies em carvão, e o mobile continua com um KPI por linha e a tabela em cartões rotulados.
 - Print `devtools.png` mostra o `div` do card Receita e Crescimento (`mud-paper mud-elevation-1 pa-4 d-flex flex-column`) selecionado no painel Elements; o card correspondente aparece destacado na página.
 - Fragmento HTML realmente obtido do DOM: `docs/html-dashboard-card.html`.
