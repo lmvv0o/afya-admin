@@ -60,9 +60,9 @@ Busca, Novo Projeto, exportação, cadastro e edição são apenas demonstrativo
 
 ## Evidências e pendências
 
-- Prints reais da página: `tema-claro.png`, `tema-escuro.png` e `mobile.png`, atualizados após o refinamento visual da navegação em grupos, dos cartões de KPI e da paleta escura.
+- Quatro prints reais: temas claro e escuro, versão mobile e inspeção do `MudPaper` na aba Elements, em `docs/prints/`.
 - Capturas refeitas em desktop (1440px) e celular (390px): o tema escuro usa superfícies em carvão, e o mobile continua com um KPI por linha e a tabela em cartões rotulados.
+- Print `devtools.png` mostra o `div` do card Receita e Crescimento (`mud-paper mud-elevation-1 pa-4 d-flex flex-column`) selecionado no painel Elements; o card correspondente aparece destacado na página.
 - Fragmento HTML realmente obtido do DOM: `docs/html-dashboard-card.html`.
-- **Falta capturar o print da interface Elements do DevTools** e salvar como `docs/prints/devtools.png`. A interface DevTools não é exposta pelo navegador integrado; o fragmento HTML não substitui o print exigido.
 - O aluno deve revisar e reescrever as respostas de aprendizado com suas palavras. O README identifica que o desenvolvimento e as explicações foram assistidos.
 - Confirmar com o professor o peso não informado do último critério e o horário de entrega, caso haja.

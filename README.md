@@ -77,15 +77,11 @@ DOTNET_USE_POLLING_FILE_WATCHER=1 dotnet watch
 
 ### HTML gerado (DevTools)
 
-**Pendência de entrega:** capturar a aba **Elements** do Chrome ou Edge e salvar a imagem como `docs/prints/devtools.png`. O navegador integrado utilizado nos testes permite ler o DOM e capturar a página, mas não disponibiliza a interface visual do DevTools. Nenhuma imagem de inspeção foi simulada.
-
-<!-- Ativar esta referência após salvar o print real:
 ![Inspeção do HTML no DevTools](docs/prints/devtools.png)
--->
 
 O componente inspecionado foi o `MudPaper` do `DashboardCard` de **Receita e Crescimento**. Ele gerou uma `<div>` com as classes `mud-paper mud-elevation-1 pa-4 d-flex flex-column`. As duas primeiras são adicionadas pelo componente; as demais são utilitários passados pelo parâmetro `Class`. O parâmetro `Height="100%"` gerou `style="height:100%;"` automaticamente: trata-se de saída do componente, não de CSS escrito na aplicação. O título virou um `<h6>` com `mud-typography mud-typography-h6`.
 
-O fragmento realmente lido do DOM está em [docs/html-dashboard-card.html](docs/html-dashboard-card.html). Para produzir o print, abra a página, pressione F12, escolha **Elements**, use o seletor de elementos e clique no card de Receita. Expanda sua `<div>` para mostrar as classes e o título. Após salvar a imagem, remova a indicação de pendência e ative a referência acima.
+O fragmento do DOM está em [docs/html-dashboard-card.html](docs/html-dashboard-card.html). No print, a aba **Elements** mostra o `div` do `MudPaper` selecionado, suas classes e o card correspondente destacado na página.
 
 ## Estrutura do projeto
 
