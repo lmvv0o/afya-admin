@@ -118,7 +118,8 @@ afya-admin/
 │   ├── prints/
 │   │   ├── tema-claro.png
 │   │   ├── tema-escuro.png
-│   │   └── mobile.png
+│   │   ├── mobile.png
+│   │   └── devtools.png
 │   ├── html-dashboard-card.html
 │   └── verificacao.md
 ├── .gitignore
@@ -219,6 +220,6 @@ Esses recursos não estão implementados nesta atividade. Os links de páginas a
 
 ## Verificação e entrega
 
-As verificações realizadas estão em [docs/verificacao.md](docs/verificacao.md). A implementação foi desenvolvida com assistência do Codex, com commits reais durante as etapas; não foi importado um projeto pronto. A revisão pessoal das respostas do README e o print real do DevTools permanecem necessários para atender integralmente ao enunciado.
+As verificações realizadas estão em [docs/verificacao.md](docs/verificacao.md). A implementação foi desenvolvida com assistência do Codex, com commits reais durante as etapas; não foi importado um projeto pronto. Os quatro prints exigidos estão incluídos, com a inspeção real do DevTools. A revisão pessoal das respostas do README permanece necessária para atender à exigência de escrever com suas próprias palavras.
 
 Prazo informado: **5 de outubro de 2026**, sem horário especificado. Os pesos fornecidos somam 85%; o peso do critério de aprendizado e dificuldades não foi informado e deve ser confirmado com o professor.
