@@ -9,7 +9,8 @@ Data: 5 de outubro de 2026. SDK 10.0.112, pacotes Blazor 10.0.12 e MudBlazor 9.1
 - No ambiente de execução, foi usado `DOTNET_USE_POLLING_FILE_WATCHER=1` após atingir o limite de inotify.
 - Dashboard na rota `/` e página NotFound em `/pagina-inexistente` verificados no navegador.
 - Console consultado após renderização e navegação: nenhuma mensagem de erro ou aviso capturada.
-- Restauração e compilação de um clone separado: verificação em andamento.
+- Verificação HTTP dos recursos locais: página inicial, runtime .NET, script do Blazor, CSS/JS do MudBlazor, CSS original e foto do usuário retornaram **200**.
+- Clone separado obtido do GitHub em `/tmp/afya-validacao-clone`: `dotnet restore --locked-mode` e `dotnet build --no-restore` concluíram com **zero erros e zero avisos**. A execução em `http://localhost:5148` iniciou e respondeu HTTP 200.
 
 ## Interações verificadas
 
