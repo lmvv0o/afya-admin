@@ -20,6 +20,8 @@ O dashboard apresenta quatro indicadores com pequenos gráficos de tendência, u
 
 O objetivo acadêmico é praticar Blazor WebAssembly, componentes Razor, parâmetros, comunicação por eventos e organização de dados. Todo o conteúdo é fictício, sem backend. O visual utiliza os componentes, o tema e os utilitários nativos do MudBlazor; não há CSS próprio para estilizar o dashboard.
 
+Como referência visual, a interface usa cartões de indicadores mais compactos, navegação separada em grupos e um tema escuro em tons de carvão com acentos azuis e coloridos. A distribuição mantém os gráficos e as seções exigidos para esta atividade.
+
 ## Tecnologias utilizadas
 
 - .NET SDK 10 — desenvolvimento verificado com **10.0.112**.

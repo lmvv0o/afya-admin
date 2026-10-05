@@ -1,16 +1,14 @@
-<MudPaper Elevation="1" Class="pa-4" Height="100%">
-    <MudStack Row="true" Spacing="3" AlignItems="AlignItems.Center">
-        <MudAvatar Size="Size.Large" Class="@Ui.FundoSuave(Kpi.Cor)"><MudIcon Icon="@Kpi.Icone" Color="@Kpi.Cor" /></MudAvatar>
-        <div>
-            <MudText Typo="Typo.body2" Class="mud-text-secondary">@Kpi.Titulo</MudText>
-            <MudText Typo="Typo.h5">@Kpi.Valor</MudText>
-        </div>
+<MudPaper Elevation="1" Class="pa-4 d-flex flex-column" Height="100%">
+    <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.Center">
+        <MudText Typo="Typo.body2" Class="mud-text-secondary">@Kpi.Titulo</MudText>
+        <MudIcon Icon="@Kpi.Icone" Color="Color.Default" Size="Size.Medium" />
     </MudStack>
-    <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.End" Class="mt-2">
+    <MudText Typo="Typo.h5">@Kpi.Valor</MudText>
+    <MudStack Row="true" Justify="Justify.SpaceBetween" AlignItems="AlignItems.End" Class="mt-auto pt-2">
         <div>
             <MudStack Row="true" Spacing="1" AlignItems="AlignItems.Center">
                 <MudIcon Icon="@(Kpi.Positivo ? Icons.Material.Filled.TrendingUp : Icons.Material.Filled.TrendingDown)" Color="@CorTendencia" Size="Size.Small" />
-                <MudText Typo="Typo.h6" Color="@CorTendencia">@Kpi.Variacao</MudText>
+                <MudText Typo="Typo.subtitle2" Color="@CorTendencia">@Kpi.Variacao</MudText>
             </MudStack>
             <MudText Typo="Typo.caption" Class="mud-text-secondary">comparado ao mês anterior.</MudText>
         </div>

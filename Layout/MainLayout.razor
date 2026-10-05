@@ -69,7 +69,9 @@
     <MudDrawer @bind-Open="_drawerOpen" Width="280px" Elevation="0" ClipMode="DrawerClipMode.Never" Variant="DrawerVariant.Responsive">
         <MudDrawerHeader Class="align-center py-6">
             <MudStack Row="true" AlignItems="AlignItems.Center" Spacing="2">
-                <MudIcon Icon="@Icons.Material.Outlined.ChangeHistory" Color="Color.Error" Size="Size.Large" />
+                <MudAvatar Size="Size.Medium" Color="Color.Primary" Variant="Variant.Filled" Rounded="true">
+                    <MudIcon Icon="@Icons.Material.Filled.Dashboard" Color="Color.Inherit" />
+                </MudAvatar>
                 <MudText Typo="Typo.h5">Afya Pedagógico</MudText>
             </MudStack>
         </MudDrawerHeader>
@@ -115,12 +117,12 @@
         },
         PaletteDark = new PaletteDark
         {
-            Primary = "#3B82F6", Secondary = "#8B5CF6", Tertiary = "#93C5FD",
-            Info = "#60A5FA", Success = "#34D399", Warning = "#FB923C", Error = "#F87171",
-            Background = "#111827", BackgroundGray = "#1F2937", Surface = "#1A2233",
-            AppbarBackground = "#1A2233", AppbarText = "#E5E7EB", DrawerBackground = "#1A2233",
-            DrawerText = "#D1D5DB", DrawerIcon = "#9CA3AF", TextPrimary = "#F3F4F6", TextSecondary = "#9CA3AF",
-            LinesDefault = "#2D3748", TableLines = "#2D3748", Divider = "#2D3748"
+            Primary = "#4F7DF3", Secondary = "#9B6BDF", Tertiary = "#9AB5FF",
+            Info = "#6F9BFF", Success = "#38C99A", Warning = "#F2A45A", Error = "#F27B86",
+            Background = "#121116", BackgroundGray = "#19181F", Surface = "#1E1D25",
+            AppbarBackground = "#1B1A22", AppbarText = "#E8E7EE", DrawerBackground = "#19181F",
+            DrawerText = "#D8D7E0", DrawerIcon = "#A7A5B2", TextPrimary = "#F4F3F7", TextSecondary = "#A4A2AF",
+            LinesDefault = "#32303A", TableLines = "#302E38", Divider = "#32303A"
         },
         LayoutProperties = new LayoutProperties { DefaultBorderRadius = "12px", AppbarHeight = "72px" },
         Typography = new Typography
