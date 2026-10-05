@@ -2,7 +2,7 @@
     <Menu><MudMenuItem>Exportar dados</MudMenuItem></Menu>
     <ChildContent>
         <MudGrid Spacing="2" Class="align-center mt-1">
-            <MudItem xs="12" sm="8">
+            <MudItem xs="12" sm="8" lg="7">
                 <MudChart T="double" ChartType="ChartType.Donut" Width="100%" Height="290px"
                           ChartSeries="_series" ChartLabels="_rotulos" ChartOptions="_opcoes">
                     <CustomGraphics>
@@ -11,7 +11,7 @@
                     </CustomGraphics>
                 </MudChart>
             </MudItem>
-            <MudItem xs="12" sm="4">
+            <MudItem xs="12" sm="4" lg="5">
                 <MudStack Spacing="3">
                     @foreach (var segmento in Segmentos)
                     {
